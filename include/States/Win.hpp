@@ -33,16 +33,13 @@ private:
     Raylib::Rectangle _rectAgain;
 
     std::string _stringWin;
-    Image _imageWin;
-    Texture2D _textureWin;
-    Vector2 _vectorImage;
 
     int _screenWidth;
     int _screenHeight;
 
-    Vector2 _mouse;
+    Vector2 _posMouse;
 
-    std::string _win;
+    Raylib::Text _win;
     Raylib::Text _back;
     Raylib::Text _again;
 
@@ -52,6 +49,8 @@ private:
     int _skin2;
 
     Raylib::Music _winMusic;
+    Raylib::WindowTools _tools;
+    Raylib::Mouse _mouse;
 };
 
 #endif /* !WIN_HPP_ */
